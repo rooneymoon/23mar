@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+html,
+body {
+    margin: 0px !important;
+}
+
+* {
+    font-family: 'Madimi One';
+}
+
+.image-nue {
+    animation: bounce2 3s ease infinite;
+    -webkit-animation: bounce2 3s ease infinite;
+}
+
+@keyframes bounce2 {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateY(-10px);
+      -webkit-transform: translateY(-10px);
+      -moz-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      -o-transform: translateY(-10px);
+    }
+  }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="src/birthday.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="absolute calendar flex justify-center items-center h-screen w-screen">
+        <div class="flex flex-col justify-center items-center">
+            <div class="flex flex-col justify-center items-center border-x-chinese border-2 rounded-md bg-white">
+                <h3 class="bg-cyclamen px-14 py-2 text-white">Saturday</h3>
+                <h1 class="text-6xl text-chinese">23</h1>
+                <p class="text-chinese">Mar, 2024</p>
+            </div>
+        </div>
+    </div>
+    <div class="mx-0 flex justify-center items-center py-14">
+        <div class="text-main flex justify-center items-center flex-col">
+            <h1 class="text-4xl text-shampoo">Yahooo!</h1>
+            <h1 class="text-4xl text-white text-center">Today Is Nue's birthday</h1>
+        </div>
+    </div>
+    <div class="flex flex-col justify-center items-center mt-4">
+        <div class="cake">
+            <div class="plate bg-white"></div>
+            <div class="layer layer-bottom bg-cyclamen"></div>
+            <div class="layer layer-cream bg-white"></div>
+            <div class="layer layer-middle bg-shampoo"></div>
+            <div class="layer layer-top bg-shampoo"></div>
+            <div class="icing bg-white"></div>
+            <div class="drip drip1 bg-white"></div>
+            <div class="drip drip2 bg-white"></div>
+            <div class="drip drip3 bg-white"></div>
+            <div class="candle bg-french">
+                <a class="flame bg-shampoo" href="#"> </a>
+            </div>
+        </div>
+        <div class="flex justify-center items-center flex-col mt-10 text-main">
+            <h3 class="text-main text-2xl text-white text-center">wish for something<br>tap flame for blow out the cake
+                :-)</h3>
+            <i class="bi bi-arrow-down-circle animate-bounce text-white text-3xl mt-5"></i>
+        </div>
+    </div>
+    <div class="flex flex-col justify-center items-center mt-20 text-main">
+        <h4 class="text-2xl text-shampoo text-center">I have some special birthday gift for u</h4>
+        <p class="text-white text-center text-2xl">click or hold it for open :D</p>
+        <div class="flex flex-col justify-center items-center mt-52">
+            <div class="birthday-gift">
+                <div class="gift">
+                    <input id='click' type='checkbox'>
+                    <label class='click' for='click'></label>
+                    <div class="flex flex-row justify-center items-center wishes">
+                        <div class="flex flex-col justify-center items-center bg-french h-36 px-3">
+                            <p class="text-sm text-white text-center">U just receive gift<br>for your special day</p>
+                            <p class="text-sm text-white text-center">Capture and<br>sent it to me :)</p>
+                        </div>
+                        <div class="flex flex-col justify-center items-center bg-white h-36 px-3">
+                            <p class="text-3xl text-french">200<br>THB</hp>
+                        </div>
+                    </div>
+                    <div class="sparkles">
+                        <div class="spark1"></div>
+                        <div class="spark2"></div>
+                        <div class="spark3"></div>
+                        <div class="spark4"></div>
+                        <div class="spark5"></div>
+                        <div class="spark6"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center text-seagreen text-sm mt-20">*but u will receive it after 26 Mar<br>I have no money rn :'(*</p>
+            <i class="bi bi-arrow-down-circle animate-bounce text-white text-3xl mt-10"></i>
+            <div class="flex flex-col bg-white rounded-lg mt-20 my-20 px-5 mx-2 gap-0 pt-4">
+                <p class="text-cyclamen">From : Maprang<br>To : Nue</p>
+                <div class="text-chinese">
+                    <p>Happy Birthday brooo!<br>Wish u a very very happy birthday kub</p>
+                    <p>May all your wishes come true na :D</p>
+                    <p class="text-cyclamen">Love u na joo xoxo <3</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
